@@ -1,0 +1,84 @@
+.mainDiv
+{
+ width: 100%; 
+ height: 100vh;
+ display: flex;
+ justify-content: center; 
+ flex-direction: column; 
+ align-items: center; 
+ background: #2ed573;
+}
+
+.mainDiv h1
+{
+ text-shadow: 2px 5px 5px #2f3542; 
+ word-spacing: 8px;
+ margin-bottom: 25px; 
+ font-size:2rem; 
+ letter-spacing: 2px; 
+ color: white;
+ padding-bottom: 8px;
+}
+
+.centerDiv
+{ 
+ width: 50%;
+ height: 450px;
+ box-shadow:2px 2px 2px 5px white;
+ display: flex;  
+ flex-direction: column;  
+ align-items: center; 
+ justify-content: center; 
+ background:lightblue; 
+ color: white;
+}
+
+.details
+{
+ text-align: center;
+ text-transform: uppercase;
+ }
+
+.details label
+{
+ font-size: 1.3rem;
+ color: red;
+}
+
+.details input 
+{
+ margin-top: 10px;
+ color: blue;
+ text-align: center;
+ outline: none;
+ height: 18px;
+ font-size: 15px;
+}
+
+.imgdiv 
+{
+margin: 30px 0;
+}
+
+button 
+{
+  background: #3498db;
+  width: 180px;
+  padding: 4px 0;
+  border-radius: 3px;
+  color:white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  outline: none;
+ }
+
+button:hover 
+{
+  cursor: pointer;
+}
+img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
