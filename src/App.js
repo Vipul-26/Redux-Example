@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <div className="mainDiv">
-         <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+         <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY AND TRAITS?</h1>
          <div className="centerDiv">
           <div className="details">
             <label>ENTER YOUR USERNAME</label>
