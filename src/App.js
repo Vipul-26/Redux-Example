@@ -12,7 +12,7 @@ const App = () => {
          <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
          <div className="centerDiv">
           <div className="details">
-            <label>ENTER YOUR USERNAME</label>
+            <label>ENTER YOUR NAME</label>
             <br />
             <input type="text" id="nameid" ref={userRef} />
           </div>
